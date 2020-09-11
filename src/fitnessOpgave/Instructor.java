@@ -1,12 +1,13 @@
 package fitnessOpgave;
 
-public class Instructor extends Employee{
+public class Instructor extends Employee {
 
-    private int hours = 23;
+    private int hours;
     private double hourlySalary = 199;
 
     public Instructor(String name, String cpr, int hours) {
-        super(name, cpr, hours);
+        super(name, cpr);
+        this.hours = hours;
     }
 
     public Instructor(String name, String cpr, int hours, double salary) {
@@ -14,7 +15,7 @@ public class Instructor extends Employee{
 
     }
 
-    public double salary(){
+    public double salary() {
         double salary = hourlySalary * hours;
         return salary;
     }

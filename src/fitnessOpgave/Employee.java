@@ -2,11 +2,10 @@ package fitnessOpgave;
 
 public class Employee extends Person {
 
-
     private int vacation;
     private double salary;
 
-    public Employee(){
+    public Employee() {
 
     }
 

@@ -1,6 +1,6 @@
 package fitnessOpgave;
 
-public class Member extends Person{
+public class Member extends Person {
 
     private String memberType = "Basic";
     private int fee = 199;

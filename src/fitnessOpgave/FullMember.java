@@ -9,7 +9,7 @@ public class FullMember extends Member {
     public FullMember() {
     }
 
-    public FullMember(String name, String cpr){
+    public FullMember(String name, String cpr) {
         super(name, cpr);
     }
 

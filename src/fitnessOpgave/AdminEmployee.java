@@ -1,8 +1,8 @@
 package fitnessOpgave;
 
-public class AdminEmployee extends Employee{
+public class AdminEmployee extends Employee {
 
-    int hours = 37;
+    int hours = 148;
     int vacation = 5;
     double salary = 33000;
 
